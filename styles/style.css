@@ -224,6 +224,14 @@ body {
   list-style: none;
 }
 
+.container .about-container .about .about-desc .about-box .about-box-card1 {
+  width: 45%;
+}
+
+.container .about-container .about .about-desc .about-box .about-box-card2 {
+  width: 45%;
+}
+
 .container .skills-container {
   background: #2c314f;
 }
