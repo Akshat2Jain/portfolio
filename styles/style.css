@@ -232,33 +232,56 @@ body {
   width: 70%;
   margin: 0 auto;
   height: 720px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
 }
 
-.container .skills-container .skills .skills-heading {
+.container .skills-container .skills .skills-top {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin: 0 auto;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .skills-container .skills .skills-top h1 {
+  padding: 3rem;
   color: #f3584c;
+  font-size: 3.5rem;
 }
 
-.container .skills-container .skills .skill-card {
+.container .skills-container .skills .skills-top .skills-img {
+  padding: 3rem;
+  width: 28%;
+  margin: auto;
+}
+
+.container .skills-container .skills .skills-heading .skill-card-box {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-.container .skills-container .skills .skill-card img {
+.container .skills-container .skills .skills-heading .skill-card-box .skill-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 25%;
+  padding: 10px;
+}
+
+.container .skills-container .skills .skills-heading .skill-card-box .skill-card img {
   width: 2rem;
   padding: 0.2rem 0.5rem;
 }
 
-.container .skills-container .skills .skill-card h2 {
+.container .skills-container .skills .skills-heading .skill-card-box .skill-card h2 {
   color: #fff;
 }
 
