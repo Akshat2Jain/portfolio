@@ -234,7 +234,7 @@ body {
 
 .container .skills-container {
   background: #2c314f;
-  padding: 4rem 0;
+  padding: 8rem 0;
 }
 
 .container .skills-container .skills {
@@ -243,7 +243,7 @@ body {
 }
 
 .container .skills-container .skills .skills-top {
-  padding-bottom: 2rem;
+  padding-bottom: 6rem;
 }
 
 .container .skills-container .skills .skills-top h1 {
@@ -276,6 +276,7 @@ body {
 
 .container .skills-container .skills .skills-heading .skill-card h2 {
   color: #fff;
+  font-size: 2rem;
 }
 
 .bounce {
